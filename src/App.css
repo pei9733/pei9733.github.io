@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-body, #root {
+body,
+#root {
   background-color: #34495e;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -75,6 +76,7 @@ h1 {
 
 .popup-container {
   background-color: rgba(0, 0, 0, 0.3);
+
   position: fixed;
   top: 0;
   bottom: 0;
@@ -88,6 +90,8 @@ h1 {
 
 .popup {
   background: #2980b9;
+  height: 500px;
+  width: 400px;
   border-radius: 5px;
   box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -127,4 +131,19 @@ h1 {
 
 .notification-container.show {
   transform: translateY(-50px);
+}
+
+input {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.simple-keyboard {
+  margin-top: 50px;
+  max-width: 850px;
+  color: black;
 }

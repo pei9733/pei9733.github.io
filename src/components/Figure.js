@@ -1,9 +1,11 @@
 import React from 'react'
+import HEAD from './bo.jpg'
+import './img.css'
 
 const Figure = ({ wrongLetters }) => {
   const errors = wrongLetters.length
-
   return (
+    <>
     <svg height="250" width="200" className="figure-container">
       {/* <!-- Rod --> */}
       <line x1="60" y1="20" x2="140" y2="20" />
@@ -34,6 +36,7 @@ const Figure = ({ wrongLetters }) => {
         <line x1="140" y1="150" x2="160" y2="180" />
       }
     </svg>
+    </>
   )
 }
 
