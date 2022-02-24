@@ -2,7 +2,7 @@
   "name": "hangman-react ghpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pei9733.github.io/hangman",
+  "homepage": "https://pei9733.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
