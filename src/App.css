@@ -10,7 +10,6 @@ body,
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
   margin: 0;
   overflow: hidden;
 }
@@ -22,7 +21,7 @@ h1 {
 .game-container {
   padding: 20px 30px;
   position: relative;
-  margin: auto;
+  
   height: 350px;
   width: 450px;
 }
@@ -133,17 +132,11 @@ h1 {
   transform: translateY(-50px);
 }
 
-input {
-  width: 100%;
-  height: 100px;
-  padding: 20px;
-  font-size: 20px;
-  border: none;
-  box-sizing: border-box;
-}
+
 
 .simple-keyboard {
-  margin-top: 50px;
+  
   max-width: 850px;
+  height: 850px;
   color: black;
 }

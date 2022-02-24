@@ -5,8 +5,8 @@ import WrongLetters from './components/WrongLetters';
 import Word from './components/Word';
 import Popup from './components/Popup';
 import Notification from './components/Notification';
-import { showNotification as show, checkWin } from './helpers/helpers';
-import bo from './components/bo.jpg'
+import { showNotification as show } from './helpers/helpers';
+//import bo from './components/bo.jpg'
 //import React, { useRef, useState } from "react";
 //import ReactDOM from "react-dom";
 import Keyboard from "react-simple-keyboard";
